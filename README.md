@@ -27,8 +27,8 @@ A(2,1) = 0              %Change A2,1 from 5 to 0
 ## Basic Arithmetic and Functions 
 ```
 3*4, 7+4, 2-6, 8/3      %multiply, add, subtract and divide 
-3^7                     %Compute $\3^{7} 
-sqrt(5)                 %Compute $\sqrt{5} 
+3^7                     %Compute $$\3^{7}$$ 
+sqrt(5)                 %Compute $$\sqrt{5}$$ 
 log(3)                  %Compute ln(3) 
 log10(100)              %Compute log10(100) 
 abs(-5)                 %Compute | − 5| 
