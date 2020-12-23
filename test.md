@@ -10,3 +10,5 @@ $$
 <img src="https://latex.codecogs.com/svg.latex?\;[1,2,3]^T"  />  
 
 h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+you can use an inline formula $$\forall x \in R$$ like this one
