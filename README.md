@@ -1,6 +1,6 @@
 # Octave_basic
 
-#Basics 
+## Basics 
 clc                     %Clear command window 
 clear                   %Clear all variables 
 clf                     %Clear all plots 
@@ -12,9 +12,11 @@ format short            %Display 4 decimal places
 format long             %Display 15 decimal places 
 disp('text')            %Print text
 
-#Defining and Changing Variables a = 3 Define variable a to be 3 x = [1, 2, 3] Set x to be the row vector [1, 2, 3] x = [1; 2; 3] Set x to be the column vector [1, 2, 3]T A = [1, 2, 3, 4; Set A to be a 3 × 4 matrix 5, 6, 7, 8; 9, 10, 11, 12] x(2) = 7 Change x from [1, 2, 3] to [1, 7, 3] A(2,1) = 0 Change A2,1 from 5 to 0
+## Defining and Changing Variables 
+a = 3 Define variable a to be 3 x = [1, 2, 3] Set x to be the row vector [1, 2, 3] x = [1; 2; 3] Set x to be the column vector [1, 2, 3]T A = [1, 2, 3, 4; Set A to be a 3 × 4 matrix 5, 6, 7, 8; 9, 10, 11, 12] x(2) = 7 Change x from [1, 2, 3] to [1, 7, 3] A(2,1) = 0 Change A2,1 from 5 to 0
 
-#Basic Arithmetic and Functions 34, 7+4, 2-6, 8/3 multiply, add, subtract and divide 3^7 Compute 3 7 sqrt(5) Compute √ 5 log(3) Compute ln(3) log10(100) Compute log10(100) abs(-5) Compute | − 5| sin(5pi/3) Compute sin(5π/3) floor(3.8) Compute ⌊3.8⌋
+## Basic Arithmetic and Functions 
+34, 7+4, 2-6, 8/3 multiply, add, subtract and divide 3^7 Compute 3 7 sqrt(5) Compute √ 5 log(3) Compute ln(3) log10(100) Compute log10(100) abs(-5) Compute | − 5| sin(5pi/3) Compute sin(5π/3) floor(3.8) Compute ⌊3.8⌋
 
 #Constructing Matrices and Vectors zeros(12, 5) Make a 12 × 5 matrix of zeros ones(12, 5) Make a 12 × 5 matrix of ones eye(5) Make a 5 × 5 identity matrix eye(12, 5) Make a 12 × 5 identity matrix linspace(1.4, 6.3, 1004) Make a vector with 1004 elements evenly spaced between 1.4 and 6.3 logspace(1.4, 6.3, 1004) Make a vector with 1004 elements where the log of the spacing is evenly increasing between 1.4 and 6.3 7:15 Row vector of 7, 8, . . . , 14, 15
 
