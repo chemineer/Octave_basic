@@ -1,5 +1,7 @@
 # Octave_basic
 
+$-b \pm \sqrt{b^2 - 4ac} \over 2a$
+
 ## Basics 
 ```
 clc                     %Clear command window 
