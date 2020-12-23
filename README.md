@@ -1,26 +1,18 @@
 # Octave_basic
 
 ## Basics 
+```
 clc                     %Clear command window 
-
 clear                   %Clear all variables 
-
 clf                     %Clear all plots 
-
 close all               %Close all plots 
-
 doc function            %Open help page for function 
-
 % This is a comment     %Comments 
-
 ctrl-c                  %Abort the current operation 
-
 format short            %Display 4 decimal places 
-
 format long             %Display 15 decimal places 
-
 disp('text')            %Print text
-
+```
 ## Defining and Changing Variables 
 a = 3 Define variable a to be 3 x = [1, 2, 3] Set x to be the row vector [1, 2, 3] x = [1; 2; 3] Set x to be the column vector [1, 2, 3]T A = [1, 2, 3, 4; Set A to be a 3 × 4 matrix 5, 6, 7, 8; 9, 10, 11, 12] x(2) = 7 Change x from [1, 2, 3] to [1, 7, 3] A(2,1) = 0 Change A2,1 from 5 to 0
 
