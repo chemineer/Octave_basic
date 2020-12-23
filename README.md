@@ -2,14 +2,23 @@
 
 ## Basics 
 clc                     %Clear command window 
+
 clear                   %Clear all variables 
+
 clf                     %Clear all plots 
+
 close all               %Close all plots 
+
 doc function            %Open help page for function 
+
 % This is a comment     %Comments 
+
 ctrl-c                  %Abort the current operation 
+
 format short            %Display 4 decimal places 
+
 format long             %Display 15 decimal places 
+
 disp('text')            %Print text
 
 ## Defining and Changing Variables 
