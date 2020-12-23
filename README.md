@@ -27,14 +27,17 @@ A(2,1) = 0              %Change A2,1 from 5 to 0
 ## Basic Arithmetic and Functions 
 ```
 3*4, 7+4, 2-6, 8/3      %multiply, add, subtract and divide 
-3^7                     %Compute $$\3^{7}$$ 
-sqrt(5)                 %Compute $$\sqrt{5}$$ 
+3^7                     (1) 
+sqrt(5)                 (2)
 log(3)                  %Compute ln(3) 
 log10(100)              %Compute log10(100) 
 abs(-5)                 %Compute | − 5| 
 sin(5pi/3)              %Compute sin(5π/3) 
 floor(3.8)              %Compute ⌊3.8⌋
 ```
+(1) %Compute $$\3^{7}$$
+(2) %Compute $$\sqrt{5}$$
+
 ## Constructing Matrices and Vectors 
 zeros(12, 5) Make a 12 × 5 matrix of zeros ones(12, 5) Make a 12 × 5 matrix of ones eye(5) Make a 5 × 5 identity matrix eye(12, 5) Make a 12 × 5 identity matrix linspace(1.4, 6.3, 1004) Make a vector with 1004 elements evenly spaced between 1.4 and 6.3 logspace(1.4, 6.3, 1004) Make a vector with 1004 elements where the log of the spacing is evenly increasing between 1.4 and 6.3 7:15 Row vector of 7, 8, . . . , 14, 15
 
