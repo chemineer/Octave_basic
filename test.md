@@ -9,4 +9,4 @@ $$
 
 <img src="https://latex.codecogs.com/svg.latex?\;[1,2,3]^T"  />  
 
-<img src="https://latex.codecogs.com/svg.latex?\;\frac{\partial E^P_{n-1}}{\partial x^{k}_{n-1}} = x"  />
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
